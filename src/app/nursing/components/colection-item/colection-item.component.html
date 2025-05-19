@@ -6,9 +6,9 @@
   </mat-card-header>
 
   <mat-card-content>
-    <p><strong>Exam Date:</strong> {{ exam.examDate | date:'mediumDate' }}</p>
-    <p><strong>Examiner:</strong> {{ examiner.firstName+ ' ' +examiner.lastName }}</p>
-    <p><strong>Examiner national provider identifier:</strong> {{ examiner.nationalProviderIdentifier}}</p>
-    <p><strong>Total Score:</strong> {{    exam.orientationScore + exam.registrationScore + exam.attentionAndCalculationScore + exam.recallScore + exam.languageScore }}</p>
+    <p><strong>{{'EXAM.DATE' | translate}}:</strong> {{ exam.examDate | date:'mediumDate' }}</p>
+    <p><strong>{{'EXAMINER.NAME' | translate}}:</strong> {{ examiner.firstName+ ' ' +examiner.lastName }}</p>
+    <p><strong>{{'EXAMINER.NPI' | translate}}:</strong> {{ examiner.nationalProviderIdentifier}}</p>
+    <p><strong>{{'EXAM.SCORE' | translate}}:</strong> {{    exam.orientationScore + exam.registrationScore + exam.attentionAndCalculationScore + exam.recallScore + exam.languageScore }}</p>
   </mat-card-content>
 </mat-card>

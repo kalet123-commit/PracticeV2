@@ -1,0 +1,17 @@
+{
+  "NAVIGATION": {
+    "HOME": "Casa",
+    "MENTAL-STATE-EXAMS": "Examen del estado mental"
+  },
+  "HERO": {
+    "PHRASE": "HIGN promueve la atención médica equitativa para los adultos mayores al educar a la fuerza laboral y a los futuros profesionales, informar las políticas, promover la investigación y brindar programas comunitarios"
+  },
+  "EXAM": {
+    "DATE": "Día",
+    "SCORE": "Puntaje"
+  },
+  "EXAMINER": {
+    "NAME": "Nombre",
+    "NPI": "NPI"
+  }
+}

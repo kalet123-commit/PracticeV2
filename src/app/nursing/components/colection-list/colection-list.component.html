@@ -1,7 +1,13 @@
 <h2>Mental State <strong>Exams</strong></h2>
 
 <div class="exam-card-list">
-  @for (exam of exams; track exam.patient) {
-    <app-colection-item  [exam]="exam"/>
+  @for (examData of registeredCard; track examData.exam.id) {
+    <app-colection-item
+      [exam]="examData.exam"
+      [examiner]="examData.examiner"
+      [patient]="examData.patient"
+    />
   }
 </div>
+
+

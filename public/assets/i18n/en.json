@@ -1,0 +1,20 @@
+
+{
+  "NAVIGATION": {
+    "HOME": "Home",
+    "MENTAL-STATE-EXAMS": "Mental state Exams"
+  },
+  "HERO": {
+    "PHRASE": "HIGN advances equitable health care for older adults by educatingthe workforce and future professionals, informing policy, advancing research, and providingcommunity programs"
+  },
+  "EXAM": {
+    "DATE": "Date",
+    "SCORE":"Score"
+  },
+  "EXAMINER": {
+    "NAME": "Name",
+    "NPI":  "NPI"
+
+  }
+}
+
