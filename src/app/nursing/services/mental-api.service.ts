@@ -15,7 +15,22 @@ interface ExamData {
   examiner: Examiner;
   patient: Patient;
 }
-
+/**
+ * Service for managing mental state exams and their related data.
+ *
+ * Extends BaseService<MentalStateExam> to inherit CRUD operations.
+ *
+ * Features:
+ * - Retrieves all mental state exams.
+ * - For each exam, fetches the associated examiner and patient data.
+ * - Returns an array of objects containing the exam, examiner, and patient.
+ *
+ * Main Methods:
+ * - getAllWithRelations(): Observable<ExamData[]>
+ *
+ * Usage:
+ * Inject this service into your components to display complete exam information.
+ */
 @Injectable({
   providedIn: 'root'
 })

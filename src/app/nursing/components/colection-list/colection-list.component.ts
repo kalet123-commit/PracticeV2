@@ -10,7 +10,17 @@ interface ExamData {
   examiner: Examiner;
   patient: Patient;
 }
-
+/**
+ * List component for displaying mental state exams.
+ *
+ * Features:
+ * - Fetches and displays a list of exams along with patient and examiner data.
+ * - Uses the MentalStateExamApiService to retrieve data.
+ * - Renders each exam using the ColectionItemComponent.
+ *
+ * Usage:
+ * Include this component in your views to show the collection of exams.
+ */
 @Component({
   selector: 'app-colection-list',
   standalone: true,
