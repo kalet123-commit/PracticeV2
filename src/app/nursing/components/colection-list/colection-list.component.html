@@ -1,0 +1,7 @@
+<h2>Mental State <strong>Exams</strong></h2>
+
+<div class="exam-card-list">
+  @for (exam of exams; track exam.patient) {
+    <app-colection-item  [exam]="exam"/>
+  }
+</div>

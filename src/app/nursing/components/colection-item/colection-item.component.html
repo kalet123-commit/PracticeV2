@@ -1,0 +1,14 @@
+<mat-card class="exam-card">
+  <img mat-card-image [src]="patient.photoUrl" alt="photo of the patient" />
+  <mat-card-header>
+    <mat-card-title>{{patient.firstName + ' ' + patient.lastName }}</mat-card-title>
+    <mat-card-subtitle>{{ patient.birthday | date:'longDate' }}</mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content>
+    <p><strong>Exam Date:</strong> {{ exam.examDate | date:'mediumDate' }}</p>
+    <p><strong>Examiner:</strong> {{ examiner.firstName+ ' ' +examiner.lastName }}</p>
+    <p><strong>Examiner national provider identifier:</strong> {{ examiner.nationalProviderIdentifier}}</p>
+    <p><strong>Total Score:</strong> {{    exam.orientationScore + exam.registrationScore + exam.attentionAndCalculationScore + exam.recallScore + exam.languageScore }}</p>
+  </mat-card-content>
+</mat-card>

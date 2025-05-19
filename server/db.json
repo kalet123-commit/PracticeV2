@@ -1,0 +1,56 @@
+{
+  "examiner": [
+    {
+      "id": 1,
+      "firstName": "Elena",
+      "lastName": "Rodríguez",
+      "nationalProviderIdentifier": 123456789
+    },
+    {
+      "id": 2,
+      "firstName": "Carlos",
+      "lastName": "Gutiérrez",
+      "nationalProviderIdentifier": 987654321
+    }
+  ],
+  "mental-state-exam": [
+    {
+      "id": 1,
+      "patientId": 101,
+      "examiner": 1,
+      "examDate": "2025-05-15",
+      "orientationScore": 5,
+      "registrationScore": 3,
+      "attentionAndCalculationScore": 4,
+      "recallScore": 2,
+      "languageScore": 4
+    },
+    {
+      "id": 2,
+      "patientId": 102,
+      "examiner": 2,
+      "examDate": "2025-05-17",
+      "orientationScore": 4,
+      "registrationScore": 2,
+      "attentionAndCalculationScore": 3,
+      "recallScore": 3,
+      "languageScore": 3
+    }
+  ],
+  "patient": [
+    {
+      "id": 101,
+      "firstName": "María",
+      "lastName": "Vásquez",
+      "photoUrl": "https://randomuser.me/api/portraits/women/45.jpg",
+      "birthday": "1985-10-12"
+    },
+    {
+      "id": 102,
+      "firstName": "Luis",
+      "lastName": "Fernández",
+      "photoUrl": "https://randomuser.me/api/portraits/men/32.jpg",
+      "birthday": "1978-03-22"
+    }
+  ]
+}

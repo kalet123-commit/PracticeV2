@@ -1,0 +1,18 @@
+<mat-toolbar color="primary" class="toolbar">
+  <div class="logo-container">
+    <img src="https://hign.org/sites/default/files/2022-01/HIGN logo 1200.png" alt="HIGN" class="logo" />
+  </div>
+  <span class="spacer"></span>
+
+  <a mat-button routerLink="/home" routerLinkActive="active-link" aria-label="Ir a la página Home">
+    {{ 'NAVIGATION.HOME' | translate }}
+  </a>
+
+  <a mat-button routerLink="/nursing/mental-state-exams" routerLinkActive="active-link" aria-label="Ir a la mental-state-exams">
+    {{ 'NAVIGATION.MENTAL-STATE-EXAMS' | translate }}
+  </a>
+
+  <span class="spacer"></span>
+
+  <app-language-switcher/>
+</mat-toolbar>
