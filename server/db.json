@@ -1,5 +1,5 @@
 {
-  "examiner": [
+  "examiners": [
     {
       "id": 1,
       "firstName": "Elena",
@@ -13,7 +13,7 @@
       "nationalProviderIdentifier": 987654321
     }
   ],
-  "mental-state-exam": [
+  "mental-state-exams": [
     {
       "id": 1,
       "patientId": 101,
@@ -37,7 +37,7 @@
       "languageScore": 3
     }
   ],
-  "patient": [
+  "patients": [
     {
       "id": 101,
       "firstName": "María",
